@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\rafael.souza\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express cors dotenv mongoose bcryptsj
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\;C:\Users\rafael.souza\AppData\Local\programs\Python\Python38-32\Scripts;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\rafael.souza\AppData\Local\Microsoft\WindowsApps;C:\Users\rafael.souza\AppData\Local\atom\bin;C:\Users\rafael.souza\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rafael.souza\AppData\Roaming\npm;C:\Users\rafael.souza\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bcryptsj: Not found
+      at Request.params.callback [as _callback] (C:\Users\rafael.souza\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\rafael.souza\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\rafael.souza\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\rafael.souza\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "05",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
